@@ -22,7 +22,7 @@ margin: 0;
 padding: 0;
 }
 body {
-background: #000 url(../images/page_bg_1.png) repeat-x;
+background: #000 url(https://robocraftgame.co.uk/images/page_bg_1.png) repeat-x;
 color: #fff;
 margin: 0;
 padding: 0;
@@ -107,7 +107,7 @@ padding: 0;
 margin: 0;
 }
 ul li {
-background-image: url(../images/widget_arrow.png);
+background-image: url(https://robocraftgame.co.uk/images/widget_arrow.png);
 background-position: left 5px;
 background-repeat: no-repeat;
 list-style-type: none;
@@ -369,7 +369,7 @@ border-radius: 10px 10px 0 0;
 }
 #header-bottom {
 float: left;
-background: url(../images/header_bottom.png) no-repeat;
+background: url(https://robocraftgame.co.uk/images/header_bottom.png) no-repeat;
 position: relative;
 width: 980px;
 height: 42px;
@@ -403,7 +403,7 @@ line-height: 0;
 line-height: 0;
 }
 .default-logo {
-background: url(../images/logo.png) no-repeat;
+background: url(https://robocraftgame.co.uk/images/logo.png) no-repeat;
 width: 240px;
 height: 110px;
 display: block;
@@ -427,7 +427,7 @@ right: 20px;
 }
 #searchbar {
 float: left;
-background: url(../images/searchbar.png) no-repeat left top;
+background: url(https://robocraftgame.co.uk/images/searchbar.png) no-repeat left top;
 width: 195px;
 height: 20px;
 position: relative;
@@ -440,11 +440,11 @@ border: 0;
 border-radius: 0;
 }
 #searchbar:focus {
-background: url(../images/searchbar.png) no-repeat left bottom;
+background: url(https://robocraftgame.co.uk/images/searchbar.png) no-repeat left bottom;
 }
 #searchsubmit {
 float: left;
-background: url(../images/searchbar.png) no-repeat right top;
+background: url(https://robocraftgame.co.uk/images/searchbar.png) no-repeat right top;
 width: 39px;
 height: 30px;
 position: relative;
@@ -457,7 +457,7 @@ border: 0;
 border-radius: 0;
 }
 #searchsubmit:hover {
-background: url(../images/searchbar.png) no-repeat right bottom;
+background: url(https://robocraftgame.co.uk/images/searchbar.png) no-repeat right bottom;
 }
 
 /* Breadcrumbs */
@@ -504,7 +504,7 @@ width: 190px;
 #display-compact {
 position: relative;
 float: left;
-background: url(../images/display_options.png) no-repeat left;
+background: url(https://robocraftgame.co.uk/images/display_options.png) no-repeat left;
 width: 84px;
 height: 23px;
 cursor: pointer;
@@ -512,7 +512,7 @@ cursor: pointer;
 #display-extended {
 position: relative;
 float: left;
-background: url(../images/display_options.png) no-repeat right;
+background: url(https://robocraftgame.co.uk/images/display_options.png) no-repeat right;
 width: 84px;
 height: 23px;
 cursor: pointer;
@@ -531,7 +531,7 @@ z-index: 100;
 }
 #nav-left {
 float: left;
-background: url(../images/nav.png) no-repeat left top;
+background: url(https://robocraftgame.co.uk/images/nav.png) no-repeat left top;
 width: 80px;
 height: 50px;
 }
@@ -545,7 +545,7 @@ display: inline;
 float: left;
 position: relative;
 max-width: 650px;
-background: url(../images/nav.png) no-repeat right top;
+background: url(https://robocraftgame.co.uk/images/nav.png) no-repeat right top;
 padding: 17px 0 0 10px;
 margin: 0;
 list-style-type: none;
@@ -672,7 +672,7 @@ width: 938px;
 line-height: 19px;
 }
 #slider-top {
-background: url(../images/metallic_line.png) no-repeat center top;
+background: url(https://robocraftgame.co.uk/images/metallic_line.png) no-repeat center top;
 width: 980px;
 height: 1px;
 clear: both;
@@ -1242,7 +1242,7 @@ display: block;
 position: absolute;
 top: 1px;
 right: 25px;
-background: url(../images/toggle_down.png) no-repeat;
+background: url(https://robocraftgame.co.uk/images/toggle_down.png) no-repeat;
 width: 15px;
 height: 8px;
 }
@@ -1465,7 +1465,7 @@ display: block;
 position: absolute;
 top: 0;
 right: 0;
-background: url(../images/top_arrow.png) no-repeat center center;
+background: url(https://robocraftgame.co.uk/images/top_arrow.png) no-repeat center center;
 border-left: 1px solid #323232;
 width: 31px;
 height: 32px;
@@ -1478,7 +1478,7 @@ cursor: pointer;
 /*************************** Shortcodes: Blockquotes ***************************/
 
 blockquote {
-background: transparent url(../images/bq.png) left top no-repeat;
+background: transparent url(https://robocraftgame.co.uk/images/bq.png) left top no-repeat;
 font-size: 14px;
 margin: 5px 20px 10px 20px;
 padding: 10px 0 5px 20px;
@@ -1496,7 +1496,7 @@ float: right;
 margin: 20px 0 20px 20px;
 }
 .blockquote-right, .blockquote-left {
-background: transparent url(../images/bq.png) left top no-repeat;
+background: transparent url(https://robocraftgame.co.uk/images/bq.png) left top no-repeat;
 width: 30%;
 font-size: 14px;
 line-height: 23px;
@@ -1634,12 +1634,12 @@ line-height: 22px;
 padding: 3px 10px 3px 35px;
 }
 .contact-success {
-background: #e3f8bf url(../images/success.png) no-repeat 10px center;
+background: #e3f8bf url(https://robocraftgame.co.uk/images/success.png) no-repeat 10px center;
 border: 1px solid #9bd23a;
 color: #5e8a11;
 }
 .contact-error {
-background: #FBE3E4 url(../images/error.gif) no-repeat 10px center;
+background: #FBE3E4 url(https://robocraftgame.co.uk/images/error.gif) no-repeat 10px center;
 border: 1px solid #FBC2C4;
 color: #8a1f11;
 }
@@ -1767,7 +1767,7 @@ left: -10000px;
 /*************************** Shortcodes: Toggle Boxes ***************************/
 
 h3.toggle {
-background: url(../images/toggle_down.png) no-repeat left 4px;
+background: url(https://robocraftgame.co.uk/images/toggle_down.png) no-repeat left 4px;
 font-size: 15px;
 padding: 0 0 10px 20px;
 margin: 0;
@@ -1778,7 +1778,7 @@ text-decoration: none;
 display: block;
 }
 h3.toggle-active {
-background: url(../images/toggle_up.png) no-repeat left 4px;
+background: url(https://robocraftgame.co.uk/images/toggle_up.png) no-repeat left 4px;
 }
 .toggle-box {
 clear:both;
@@ -1850,7 +1850,7 @@ min-height: 13px;
 }
 .homepage-widget .widgettitle {
 width: 100%;
-background: url(../images/review_title_line.png) no-repeat bottom;
+background: url(https://robocraftgame.co.uk/images/review_title_line.png) no-repeat bottom;
 padding-bottom: 10px;
 margin-bottom: 20px;
 position: relative;
@@ -1891,7 +1891,7 @@ margin-bottom: 10px;
 width: 200px;
 }
 #content-wrapper .widget #searchsubmit {
-background: url(../images/searchbar.png) no-repeat right top;
+background: url(https://robocraftgame.co.uk/images/searchbar.png) no-repeat right top;
 padding: 0;
 margin: 0;
 border: 0;
@@ -1901,7 +1901,7 @@ border: 0;
 border-radius: 0;
 }
 #content-wrapper .widget #searchsubmit:hover {
-background: url(../images/searchbar.png) no-repeat right bottom;
+background: url(https://robocraftgame.co.uk/images/searchbar.png) no-repeat right bottom;
 }
 
 /* Recent Comments Widget */
@@ -2062,7 +2062,7 @@ width: 650px;
 margin: 18px 0 0 0;
 }
 #comments-title {
-background: url(../images/comment_header.png) no-repeat;
+background: url(https://robocraftgame.co.uk/images/comment_header.png) no-repeat;
 width: 650px;
 height: 42px;
 margin-bottom: 30px;
@@ -2130,7 +2130,7 @@ top: 13px;
 left: 1px;
 width: 19px;
 height: 30px;
-background: url(../images/comment_arrow.png) no-repeat;
+background: url(https://robocraftgame.co.uk/images/comment_arrow.png) no-repeat;
 }
 .comment-user-rating {
 margin-top: 5px;
