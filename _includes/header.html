@@ -1,0 +1,78 @@
+<div id="login"></div>
+
+<div class="clear"></div>
+
+<div id="header-top">
+
+	<div id="logo" style="margin-top: 15px; margin-left: 10px;">
+		<span class="logo-details">ROBOCRAFT |   Get ready to join the fight!</span>
+		<a href="{% if page.lang == 'en' %}index_en.html{% else %}index.html{% endif %}" title="ROBOCRAFT"><img src="images/V2_RoboCraftLogo_White.png" alt="ROBOCRAFT"></a>
+	</div>
+
+	<div id="nav">
+		<span id="nav-left"></span>
+		<ul class="menu">
+			<li><a href="https://auth-backend.robocraftgame.co.uk/register">register</a>
+				<ul class="sub-menu">
+					<li><a href="https://auth-backend.robocraftgame.co.uk/register">REGISTER NOW!</a></li>
+					<li><a href="https://git.ngram.ca/OpenJam/rc-servers#privacy">Privacy Policy</a></li>
+				</ul>
+			</li>
+			<li><a href="https://store.steampowered.com/app/301520/Robocraft/">Download</a>
+				<ul class="sub-menu">
+					<li><a href="https://store.steampowered.com/app/301520/Robocraft/">Download Game &#8211; Steam</a></li>
+					<li><a href="https://destiny.hailstorm.gay/public/robocraft/2021/1212507927783799285.zip">Download Game &#8211; Win</a></li>
+					<li><a href="https://drive.google.com/uc?id=1Iqe3bSXCAJ7jMlpG9Nh8lfbz_rqSwYSG">Download Game &#8211; Linux</a></li>
+					<li><a href="https://drive.google.com/uc?id=1-t1c_sH9OL0YhsCk6mIUyrV_oTj4As7F">Download Game &#8211; MacOS</a></li>
+				</ul>
+			</li>
+			<li><a href="https://robocraftgame.co.uk/discord">Community</a>
+				<ul class="sub-menu">
+					<li><a href="https://robocraftgame.co.uk/discord">Robocraft JP - Discord</a></li>
+					<li><a href="https://discord.gg/Robocraft">Official - Discord</a></li>
+					<li><a href="https://discord.gg/54md9XbZX5">Robocraft US - Discord</a></li>
+					<li><a href="https://rc15.net/discord">RC15 Project - Discord</a></li>
+				</ul>
+			</li>
+			<li><a href="https://git.robocraftgame.co.uk/MaxSignal/rc-servers/-/wikis/home">service</a>
+				<ul class="sub-menu">
+					<li><a href="https://git.robocraftgame.co.uk/MaxSignal/rc-servers/-/wikis/home">Wiki (JA)</a></li>
+					<li><a href="https://git.robocraftgame.co.uk/MaxSignal/rc-servers">Git</a></li>
+					<li><a href="https://factory.robocraftgame.co.uk">Factory</a></li>
+					<li><a href="https://society.robocraftgame.co.uk">Server Status</a></li>
+				</ul>
+			</li>
+			<li><a href="https://git.ngram.ca/OpenJam/rc-servers#readme">Dev</a>
+				<ul class="sub-menu">
+					<li><a href="https://rvlt.gg/jtVE0pD5">Stoat</a></li>
+					<li><a href="https://rc.ngram.ca">Server List</a></li>
+					<li><a href="https://git.ngram.ca/OpenJam/rc-servers">Git</a></li>
+					<li><a href="https://git.ngram.ca/OpenJam/rc-servers/wiki">Wiki (EN)</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<form method="get" id="searchform" action="">
+		<input type="text" name="s" id="searchbar" value="search..." onblur="if (this.value == '') {this.value = 'search...';}" onfocus="if (this.value == 'search...') {this.value = '';}" />
+		<input type="submit" id="searchsubmit" value="" />
+	</form>
+
+</div>
+
+<div id="header-bottom">
+
+	<div id="display-options">
+		&nbsp;
+	</div>
+
+	<div id="breadcrumbs"><a href="https://liberapay.com/NGram">{% if page.lang == 'en' %}Donate to OpenJam{% else %}OpenJamに寄付する{% endif %}</a></div>
+
+	<div id="social-icons">
+		<a href="" rel="nofollow" target="_blank"><img src="images/social_rss.png" alt="RSS Feed" /></a>
+		<a href="" rel="nofollow" target="_blank"><img src="images/social_twitter.png" alt="Twitter" /></a>
+		<a href="" rel="nofollow" target="_blank"><img src="images/social_facebook.png" alt="Facebook" /></a>
+		<a href="" rel="nofollow" target="_blank"><img src="images/social_youtube.png" alt="YouTube" /></a>
+	</div>
+
+</div>

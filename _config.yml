@@ -1,0 +1,13 @@
+# Jekyll configuration for maxsignal.github.io (Robocraft JP)
+# 共通レイアウト/インクルードでページを生成します。
+title: "ROBOCRAFT JP | BUILD DRIVE FIGHT"
+
+# ビルド対象外（そのまま配信）
+keep_files:
+  - images
+  - css
+  - CNAME
+
+# 余計な出力を避ける
+exclude:
+  - README.md

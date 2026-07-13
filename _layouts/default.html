@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{% if page.lang == 'en' %}en-US{% else %}ja-JP{% endif %}" class="no-js">
+<head>
+{% include head.html %}
+</head>
+
+<body class="custom-background sb-right skin-dark">
+
+<div id="page-wrapper">
+
+{% include header.html %}
+
+	<div id="content-wrapper">
+
+		<div id="content">
+
+			<h1 class="page-title">{{ page.heading }}</h1>
+			<div class="post-meta">
+				12/05/2025 - <a href="" title="Posts by MaxSignal" rel="author">MaxSignal</a>
+			</div>
+
+			<div id="post-content">
+{{ content }}
+			</div>
+
+			<div class="clear"></div>
+
+{% include comments.html %}
+		</div>
+
+{% include sidebar.html %}
+	</div>
+
+	<div class="clear"></div>
+	<div class="clear"></div>
+
+{% include footer.html %}
+</div>
+
+</body>
+</html>

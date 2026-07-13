@@ -537,6 +537,8 @@ height: 50px;
 }
 #nav .menu {
 display: inline;
+white-space: nowrap; /* トップレベルを常に1行に保ち、折り返しによる縦ずれを防ぐ */
+font-size: 0; /* inline-block 化に伴う項目間の余白を除去(子要素で font-size を復帰) */
 }
 
 /* Top Level Nav */
@@ -544,7 +546,6 @@ display: inline;
 #nav ul ul {
 float: left;
 position: relative;
-max-width: 650px;
 background: url(https://robocraftgame.co.uk/images/nav.png) no-repeat right top;
 padding: 17px 0 0 10px;
 margin: 0;
@@ -581,6 +582,16 @@ margin: 0;
 display: block;
 padding: 3px 30px 3px 0;
 background: none;
+}
+/* トップレベル項目は inline-block にして white-space:nowrap を効かせ、常に1行に保つ。
+   サブメニュー内の li は従来どおり float のまま(縦積み)。 */
+#nav .menu > li {
+float: none;
+display: inline-block;
+vertical-align: top;
+}
+#nav .sub-menu {
+white-space: normal; /* 親の nowrap を打ち消す */
 }
 
 /* Drop Down Menus */
