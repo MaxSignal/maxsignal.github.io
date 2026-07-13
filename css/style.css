@@ -589,6 +589,7 @@ background: none;
 float: none;
 display: inline-block;
 vertical-align: top;
+padding-right: 22px; /* service 追加で増えた横幅を詰め、ロゴ横の1行に収める(下段落ち防止) */
 }
 #nav .sub-menu {
 white-space: normal; /* 親の nowrap を打ち消す */
