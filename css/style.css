@@ -350,6 +350,8 @@ display: none;
 #header-top {
 float: left;
 position: relative;
+-webkit-text-size-adjust: 100%; /* iOS Safari の文字自動拡大でメニューが広がり下段落ちするのを防ぐ */
+text-size-adjust: 100%;
 width: 978px;
 min-height: 120px;
 z-index: 100;
