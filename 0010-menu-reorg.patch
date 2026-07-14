@@ -1,0 +1,48 @@
+From 888a9fab3bd25e8fd343d9d7ec8b485b3ddd248e Mon Sep 17 00:00:00 2001
+From: MaxSignal <dev@robocraftgame.co.uk>
+Date: Tue, 14 Jul 2026 08:44:01 +0000
+Subject: [PATCH 1/2] =?UTF-8?q?=E3=83=A1=E3=83=8B=E3=83=A5=E3=83=BC?=
+ =?UTF-8?q?=E5=86=8D=E7=B7=A8:=20service/development=20=E3=81=AE=E3=82=B5?=
+ =?UTF-8?q?=E3=83=96=E3=83=A1=E3=83=8B=E3=83=A5=E3=83=BC=E6=95=B4=E7=90=86?=
+ =?UTF-8?q?=E3=81=A8=20Dev=E2=86=92development?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+- service に Server List・Wiki (EN) を Dev から移動、Account Settings
+  (https://society.robocraftgame.co.uk/dashboard) を追加、Git を除去
+- development(旧 Dev) に service の Git を Git (mirror) として移動
+- トップレベル Dev を development に改称
+新 service: Wiki(JA)/Wiki(EN)/Server List/Factory/Server Status/Account Settings
+新 development: Stoat/Git/Git (mirror)
+---
+ _includes/header.html | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+diff --git a/_includes/header.html b/_includes/header.html
+index 9033e92..16668ad 100644
+--- a/_includes/header.html
++++ b/_includes/header.html
+@@ -37,17 +37,18 @@
+ 			<li><a href="https://git.robocraftgame.co.uk/MaxSignal/rc-servers/-/wikis/home">service</a>
+ 				<ul class="sub-menu">
+ 					<li><a href="https://git.robocraftgame.co.uk/MaxSignal/rc-servers/-/wikis/home">Wiki (JA)</a></li>
+-					<li><a href="https://git.robocraftgame.co.uk/MaxSignal/rc-servers">Git</a></li>
++					<li><a href="https://git.ngram.ca/OpenJam/rc-servers/wiki">Wiki (EN)</a></li>
++					<li><a href="https://rc.ngram.ca">Server List</a></li>
+ 					<li><a href="https://factory.robocraftgame.co.uk">Factory</a></li>
+ 					<li><a href="https://society.robocraftgame.co.uk">Server Status</a></li>
++					<li><a href="https://society.robocraftgame.co.uk/dashboard">Account Settings</a></li>
+ 				</ul>
+ 			</li>
+-			<li><a href="https://git.ngram.ca/OpenJam/rc-servers#readme">Dev</a>
++			<li><a href="https://git.ngram.ca/OpenJam/rc-servers#readme">development</a>
+ 				<ul class="sub-menu">
+ 					<li><a href="https://rvlt.gg/jtVE0pD5">Stoat</a></li>
+-					<li><a href="https://rc.ngram.ca">Server List</a></li>
+ 					<li><a href="https://git.ngram.ca/OpenJam/rc-servers">Git</a></li>
+-					<li><a href="https://git.ngram.ca/OpenJam/rc-servers/wiki">Wiki (EN)</a></li>
++					<li><a href="https://git.robocraftgame.co.uk/MaxSignal/rc-servers">Git (mirror)</a></li>
+ 				</ul>
+ 			</li>
+ 		</ul>
