@@ -1,15 +1,24 @@
 <div id="sidebar">
 
-	<div class="widget widget-discord">
-		<h2 class="widgettitle">Discord</h2>
-		<iframe class="discord-widget" src="https://discord.com/widget?id=1491007975287160862&amp;theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+	<div class="widget widget_categories">
+		<h2 class="widgettitle">{% if page.lang == 'en' %}Sitemap{% else %}サイトマップ{% endif %}</h2>
+		<ul>
+		{% if page.lang == 'en' %}
+			<li class="cat-item"><a href="index_en.html">Home</a></li>
+			<li class="cat-item"><a href="UPDATE_en.html">Update Information</a></li>
+			<li class="cat-item"><a href="OTHER_en.html">Hardware Information</a></li>
+		{% else %}
+			<li class="cat-item"><a href="index.html">ホーム</a></li>
+			<li class="cat-item"><a href="UPDATE.html">更新情報</a></li>
+			<li class="cat-item"><a href="OTHER.html">機材情報</a></li>
+		{% endif %}
+		</ul>
 	</div>
 
 	<div class="widget widget_categories">
-		<h2 class="widgettitle">Service</h2>
+		<h2 class="widgettitle">{% if page.lang == 'en' %}Service{% else %}サービス{% endif %}</h2>
 		<ul>
-			<li class="cat-item"><a href="https://git.robocraftgame.co.uk/MaxSignal/rc-servers/-/wikis/home">Wiki (JA)</a></li>
-			<li class="cat-item"><a href="https://git.ngram.ca/OpenJam/rc-servers/wiki">Wiki (EN)</a></li>
+			<li class="cat-item"><a href="{% if page.lang == 'en' %}https://git.ngram.ca/OpenJam/rc-servers/wiki{% else %}https://git.robocraftgame.co.uk/MaxSignal/rc-servers/-/wikis/home{% endif %}">Wiki</a></li>
 			<li class="cat-item"><a href="https://rc.ngram.ca">Server List</a></li>
 			<li class="cat-item"><a href="https://factory.robocraftgame.co.uk">Factory</a></li>
 			<li class="cat-item"><a href="https://society.robocraftgame.co.uk">Server Status</a></li>
@@ -17,19 +26,9 @@
 		</ul>
 	</div>
 
-	<div class="widget widget_categories">
-		<h2 class="widgettitle">{% if page.lang == 'en' %}Pages{% else %}ページ{% endif %}</h2>
-		<ul>
-		{% if page.lang == 'en' %}
-			<li class="cat-item"><a href="index_en.html">Home</a></li>
-			<li class="cat-item"><a href="UPDATE_en.html">Update Information</a></li>
-			<li class="cat-item"><a href="OTHER_en.html">Server Information</a></li>
-		{% else %}
-			<li class="cat-item"><a href="index.html">ホーム</a></li>
-			<li class="cat-item"><a href="UPDATE.html">更新情報</a></li>
-			<li class="cat-item"><a href="OTHER.html">サーバー情報</a></li>
-		{% endif %}
-		</ul>
+	<div class="widget widget-discord">
+		<h2 class="widgettitle">Discord</h2>
+		<iframe class="discord-widget" src="https://discord.com/widget?id=1491007975287160862&amp;theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 	</div>
 
 </div>
