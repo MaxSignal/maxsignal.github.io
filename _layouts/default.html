@@ -20,6 +20,7 @@
 			</div>
 
 			<div id="post-content">
+			<p class="lang-toggle">{% if page.lang == 'en' %}<a href="{{ page.name | replace: '_en.html', '.html' }}">日本語</a> / English{% else %}日本語 / <a href="{{ page.name | replace: '.html', '_en.html' }}">English</a>{% endif %}</p>
 {{ content }}
 			</div>
 
